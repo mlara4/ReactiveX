@@ -1,0 +1,30 @@
+{
+  "name": "reactivex",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "webpack-dev-server --watch --inline",
+    "postinstall": "typings install"
+  },
+  "dependencies": {
+    "rxjs": "^5.5.2"
+  },
+  "devDependencies": {
+    "ts-loader": "^0.8.2",
+    "typescript": "^1.8.10",
+    "typings": "^1.5.0",
+    "webpack": "^1.15.0",
+    "webpack-dev-server": "^1.16.5"
+  },
+  "main": "webpack.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlara4/ReactiveX.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mlara4/ReactiveX/issues"
+  },
+  "homepage": "https://github.com/mlara4/ReactiveX#readme",
+  "description": ""
+}
